@@ -56,3 +56,15 @@ border: none;border-radius: 6px;cursor: pointer;transition: 0.3s;}
     rgba(0, 0, 0, 0.15);}
 
     @media(max-width: 600px){.product-container{grid-template-columns: 1fr;}}
+
+    @media (max-width: 600px)
+    {header{flex-direction: column;gap: 15px;padding: 15px;}}
+    nav{gap:20px;}
+    h1{font-size: 30px;}
+    main{padding: 25px 15px;}
+    
+    .hero{flex-direction: column;padding: 35px 20px;gap: 25px;}
+
+    .hero h3 {font-size: 24px;}
+
+    .hero img {width: 180px;max-width: 100%;}
