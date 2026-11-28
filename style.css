@@ -49,3 +49,10 @@ border: none;border-radius: 6px;cursor: pointer;transition: 0.3s;}
 .product-card button:hover{background-color: gray;transform: translateY(-3px) scale(1.05);}
 
 .product-card button:active{transform: scale(0.95); background-color: red;}
+
+.product-card{transition: 0.3s; }
+
+.product-card:hover{transform: translateY(-5px);box-shadow: 8px 20px 
+    rgba(0, 0, 0, 0.15);}
+
+    @media(max-width: 600px){.product-card{width: 100%;}}
